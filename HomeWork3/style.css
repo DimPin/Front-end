@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu {
+    margin-left: 346px;
+}
+
+.top__content {
+    margin-top: 96px;
+    display: flex;
+}
+
+.text {
+    margin-top: 17px;
+}
+
+.top__button {
+    margin-top: 52px;
+}
+
+.button__start {
+    padding: 15px 35px;
+    margin-right: 72px;
+}
+
+.logo {
+    margin-top: 200px;
+}
+
+.logo_photo {
+    margin-right: 48px;
+}
