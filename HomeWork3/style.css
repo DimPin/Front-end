@@ -7,6 +7,7 @@
     margin-top: 45px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header__logo {
@@ -18,9 +19,15 @@
     margin-left: 346px;
 }
 
+.top {
+    margin-left: 10vmax;
+    margin-right: 10vmax;
+}
+
 .top__content {
     margin-top: 96px;
     display: flex;
+    justify-content: space-between;
 }
 
 .text {
@@ -38,8 +45,105 @@
 
 .logo {
     margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo_photo {
     margin-right: 48px;
+}
+
+.header__name {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__name_be {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__image {
+    width: 35px;
+    height: 40px;
+    flex-shrink: 0; 
+}
+
+.header__link_home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header__link {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button__start {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button__watch_video {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    border: none;
+}
+
+.photo {
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
 }
