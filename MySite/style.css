@@ -147,3 +147,133 @@
     height: 374.843px;
     flex-shrink: 0;
 }
+
+.content {
+    margin-left: 10vmax;
+    margin-right: 10vmax;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.up-content {
+    display: flex;
+}
+
+.icon {
+    margin-bottom: 25px;
+}
+
+.content-title {
+    margin-bottom: 20px;
+}
+
+.up-button {
+    margin-top: 25px;
+}
+
+.down-items {
+    display: flex;
+    margin-top: 50px;
+}
+
+.down-title {
+    margin-top: 92px;
+    margin-bottom: 19px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.down-button {
+    margin-top: 39px;
+    padding: 15px 36px 15px 46px;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    background-color: #F25822;
+    border: none;
+    border-radius: 30px;
+}
+
+.content-title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-content {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.up-button {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+    background: none;
+    border: none;
+}
+
+.up_item:hover {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.up_item {
+    margin-left: 60px;
+    padding: 40px 31px 25px 29px;
+}
+
+.down-item {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.down-item_end {
+    margin: 0;
+}
+
+.down-item:hover {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.up_item_start {
+    margin: 0;
+}
+
+.text-content-down {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.down-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
