@@ -12,19 +12,11 @@
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.logos-group-1 {
-    padding-left: 230px;
+    justify-content: space-around;
 }
 
 .logo-group {
-    margin-right: 15px;
-}
-
-.logos-group-2 {
-    padding-right: 230px;
+    margin-right: 16px;
 }
 
 .top-content {
@@ -69,7 +61,7 @@
     width: 1138px;
 }
 
-.img-text {
+.content-img-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,18 +74,18 @@
     background: rgba(33, 22, 22, 0.7);
 }
 
-.content-cards {
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 60px 0;
+    align-items: center;
+}
+
+.content-cards-group {
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
     justify-content: space-between;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    margin: 60px 230px 60px 230px;
-    width: 1140px;
 }
 
 .content-title-top {
@@ -109,11 +101,79 @@
     font-size: 24px;
 }
 
+.products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products-title {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.products-text {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
 .products-cards {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 48px;
+    justify-content: space-between;
+    max-width: 1140px;
 }
 
 .products-card {
+    margin-bottom: 30px;
     width: 360px;
+    background-color: #F8F8F8;
+}
+
+.products-card-texts {
+    margin: 16px;
+    font-family: sans-serif;
+}
+
+.products-card-title {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.products-card-text {
+    margin: 16px 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #5D5D5D;
+}
+
+.products-card-price {
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.products-button {
+    margin-bottom: 60px;
+    margin-top: 48px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #F26376;
+    border: 1px #FF6A6A solid;
+    padding: 16px;
+}
+
+.products-button:hover {
+    background-color: #FF6A6A;
+    color: white;
+    cursor: pointer;
+}
+
+.no-margin {
+    margin: 0;
 }
