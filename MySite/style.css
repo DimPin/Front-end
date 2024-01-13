@@ -294,3 +294,36 @@ img {
     color: white;
     cursor: pointer;
 }
+
+.advantages {
+    background-color: #222222;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.advantages__item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.advantages__heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.advantages__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
