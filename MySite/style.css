@@ -123,6 +123,45 @@ img {
     margin-top: 48%;
 }
 
+@media screen and (max-width: 981px) {
+    .top__info {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .top {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top__img {
+        display: none;
+    }
+
+    .top__info {
+        margin: 148px calc(50% - 240px);
+    }
+
+    .top__title {
+        font-size: 38px;
+    }
+
+    .top__heading {
+        font-size: 20px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__card-big {
+        max-width: 360px;
+    }
+}
+
 .top__title {
     font-style: normal;
     font-weight: 900;
@@ -301,7 +340,15 @@ img {
     padding-bottom: 104px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
+}
+
+@media screen and (max-width: 1154px) {
+    .advantages {
+        flex-direction: column;
+    }
 }
 
 .advantages__item {
