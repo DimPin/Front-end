@@ -392,6 +392,33 @@ img {
     font-size: 14px;
 }
 
+.footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222224;
+    color: white;
+}
+
+.footer__text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer__labels {
+    display: flex;
+    gap: 7px;
+}
+
+.footer__label {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
 @media screen and (max-width: 1615px) {
     .registration {
         background-size: 1600px 448px;
@@ -442,6 +469,12 @@ img {
 
     .header__remove {
         display: none;
+    }
+
+    .footer {
+        height: 140px;
+        flex-direction: column-reverse;
+        justify-content: space-evenly
     }
 }
 
