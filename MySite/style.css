@@ -186,53 +186,6 @@ img {
     color: #F16D7F;
 }
 
-@media screen and (max-width: 853px) {
-    .top__info {
-        margin-top: 30%;
-    }
-}
-
-@media screen and (max-width: 695px) {
-    .top__img {
-        display: none;
-    }
-    
-    .top__content {
-        margin: 0 calc(50% - 137px);
-    }
-
-    .top__info {
-        margin: 148px 0;
-    }
-
-    .top__title {
-        font-size: 38px;
-    }
-
-    .top__heading {
-        font-size: 20px;
-    }
-
-    .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .content__card-big {
-        max-width: 360px;
-    }
-
-    .content__card__big-img {
-        height: 110px;
-        object-fit: cover;
-    }
-
-    .header__remove {
-        display: none;
-    }
-}
-
 .product__title {
     font-weight: normal;
     font-size: 30px;
@@ -350,12 +303,6 @@ img {
     gap: 30px;
 }
 
-@media screen and (max-width: 1154px) {
-    .advantages {
-        flex-direction: column;
-    }
-}
-
 .advantages__item {
     width: 360px;
     display: flex;
@@ -378,4 +325,135 @@ img {
     line-height: 17px;
     text-align: center;
     color: #FBFBFB;
+}
+
+.registration {
+    background: url(img/registration/background.jpg);
+    height: 448px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registration__avatar {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.registration__text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.registration__mail {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.registration__titles {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.registration__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.registration__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registration__input {
+    border-radius: 30px 0 0 30px;
+    border: none;
+    background-color: #E1E1E1;
+    padding: 20px;
+    width: 208px;
+}
+
+.registration__button {
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    padding: 19px;
+    background-color: #E05C6E;
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1615px) {
+    .registration {
+        background-size: 1600px 448px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .top__info {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .top__img {
+        display: none;
+    }
+    
+    .top__content {
+        margin: 0 calc(50% - 137px);
+    }
+
+    .top__info {
+        margin: 148px 0;
+    }
+
+    .top__title {
+        font-size: 38px;
+    }
+
+    .top__heading {
+        font-size: 20px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__card-big {
+        max-width: 360px;
+    }
+
+    .content__card__big-img {
+        height: 110px;
+        object-fit: cover;
+    }
+
+    .header__remove {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1154px) {
+    .advantages {
+        flex-direction: column;
+    }
+
+    .registration {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 690px;
+        background-size: auto 690px;
+    }
 }
